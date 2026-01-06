@@ -1,0 +1,17 @@
+score =int(input("점수(0~100): "))
+
+if score >=90:
+    grade ="A"
+elif score >=80:
+    grade ="B"
+elif score >=70:
+    grade ="C"
+elif score >=60:
+    grade ="D"
+else:
+    grade ="F"
+
+print("등급:", grade)
+
+if score < 0 or score >100:
+    print("잘못된 점수 입니다.")
